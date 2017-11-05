@@ -74,12 +74,13 @@ a:hover {
 .container-center {
 /*  width: 800px;    This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
+
 }
 
 .card-white {
   background-color: #FBFFFE;
   text-align: center;
-  width: 45%;
+  width: 70%;
   margin: 40px auto;
   padding: 20px;
   border-radius: 5px;
@@ -89,7 +90,7 @@ a:hover {
 .picture-circle {
   border-radius: 100%;
   box-shadow: 1px 1px 2px #191716;
-  width: 50%;
+  width: 30%;
 }
 
 .img-small {
@@ -124,4 +125,26 @@ a:hover {
 
 .fa {
   font-size: 20px;
+}
+
+#sidebar {
+  position: fixed;
+  background-color: rgb(100, 100, 100);
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+/*  justify-content: center;*/
+  flex-direction: column;
+  text-align: center;
+}
+
+.icone-space {
+  margin: 30px;
+}
+
+#page-content {
+  margin-left: 300px;
 }
